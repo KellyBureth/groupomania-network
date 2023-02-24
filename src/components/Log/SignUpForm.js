@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import SignInForm from "./SignInForm";
 
+const API = process.env.REACT_APP_API_URL;
+
 const SignUpForm = () => {
   const [formSubmit, setFormSubmit] = useState(false);
   const [email, setEmail] = useState("");
@@ -31,7 +33,7 @@ const SignUpForm = () => {
     } else {
       await axios({
         method: "post",
-        url: `${process.env.REACT_APP_API_URL}api/user/register`,
+        url: API + "api/user/register",
         data: {
           pseudo: email.substring(0, email.lastIndexOf("@")),
           email,
