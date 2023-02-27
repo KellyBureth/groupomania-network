@@ -2,3 +2,4 @@ a effacer
 ajout http:// a localhost
 bdd mongo ok (url mauvaise, dc sur test et pas sur groupo)
 back hébergé mis de nouveau en var env
+https:// var back
