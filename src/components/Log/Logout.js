@@ -18,7 +18,8 @@ const Logout = () => {
       .then(() => removeCookie("jwt"))
       .catch((err) => console.log(err));
 
-    window.location = "/profil";
+    window.location = "/";
+    //window.location = "/profil";
   };
 
   return (
