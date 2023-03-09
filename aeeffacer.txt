@@ -4,3 +4,5 @@ bdd mongo ok (url mauvaise, dc sur test et pas sur groupo)
 back hébergé mis de nouveau en var env
 https:// var back
 server railway this time
+ok but logout pbm since cookie active
+adaptable test
